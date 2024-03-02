@@ -13,11 +13,11 @@ This slightly modified [walker_nav_menu](https://developer.wordpress.org/referen
  */
 require get_template_directory() . '/inc/class-bootstrap-5-wp-nav-menu-walker.php';
 ```
-3. 4. Register a new menu by adding the follow code into the `functions.php` file of your theme:
+3. Register a new menu by adding the follow code into the `functions.php` file of your theme:
 ```php
 register_nav_menu('main-menu', 'Main menu');
 ```
-3. Add the following html code in your `header.php` file or wherever you want to place your menu:
+4. Add the following html code in your `header.php` file or wherever you want to place your menu:
 ```html
 <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container-fluid">
