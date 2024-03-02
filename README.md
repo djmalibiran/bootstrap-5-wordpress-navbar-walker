@@ -13,7 +13,7 @@ This slightly modified [walker_nav_menu](https://developer.wordpress.org/referen
  */
 require get_template_directory() . '/inc/class-bootstrap-5-wp-nav-menu-walker.php';
 ```
-3. Register a new menu by adding the follow code into the `functions.php` file of your theme:
+3. Register a new menu by adding the following code into the `functions.php` file of your theme:
 ```php
 register_nav_menu('main-menu', 'Main menu');
 ```
