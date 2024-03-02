@@ -6,7 +6,7 @@ This slightly modified [walker_nav_menu](https://developer.wordpress.org/referen
 
 ## How to use:
 1. Copy the `/inc/class-bootstrap-5-wp-nav-menu-walker.php` file to your `/path/to/your-theme-folder/inc/`.
-2. Reqire the file in your theme `functions.php`, right after the theme setup (e.g. `wp_enqueue_scripts`).
+2. Require the file in your theme `functions.php`, right after the theme setup (e.g. `wp_enqueue_scripts`).
 ```php
 /**
  * Load Bootstrap Nav Walker.
